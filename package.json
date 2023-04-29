@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --watch index.js",
-    "seed:sample": "node ./seeds/sample.seed.js",
+    "seed:crypto": "node ./seeds/crypto.seed.js",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"

@@ -1,5 +1,5 @@
 const express = require("express");
-const { sampleRouter } = require("./routes/sample.routes.js");
+const { cryptoRouter } = require("./routes/crypto.routes.js");
 
 // Conexión a la BBDD
 const { connect } = require("./db.js");
@@ -21,7 +21,7 @@ router.get("*", (req, res) => {
 });
 
 // Usamos las rutas
-server.use("/sample", sampleRouter);
+server.use("/crypto", cryptoRouter);
 server.use("/", router);
 
 server.listen(PORT, () => {

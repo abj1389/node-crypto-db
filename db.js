@@ -9,7 +9,7 @@ const config = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000,
-  dbName: "sample-database",
+  dbName: "crypto-db",
 };
 
 const connect = async () => {
